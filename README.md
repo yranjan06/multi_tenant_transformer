@@ -140,7 +140,6 @@ Each tenant can specify:
 
 - Python 3.8+
 - jinja2 (for SQL templating)
-- pandas (for CSV processing)
 - sqlite3 (built into Python)
 
 ## Use Cases
