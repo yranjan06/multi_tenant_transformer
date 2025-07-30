@@ -108,9 +108,9 @@ The engine reads your configuration, applies the SQL template to each tenant's d
 ## Example Use Case
 
 **Tenant Alpha** needs customer names in uppercase:
-- Input: "john doe"
+- Input: "Ranjan Yadav"
 - Transformation: `UPPER(name)`
-- Output: "JOHN DOE"
+- Output: "RANJAN YADAV"
 
 **Tenant Beta** needs email addresses in lowercase:
 - Input: "USER@COMPANY.COM"  
