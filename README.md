@@ -155,8 +155,11 @@ This pattern works well for:
 
 Built using architectural patterns from:
 
-- "Multi-Tenant SaaS Architectures" (ResearchGate, 2024)  
-- Cerbos multi-tenancy best practices
+- [Multi-Tenant SaaS Architectures: Design Principles and Security Considerations (ResearchGate, 2024)](https://www.researchgate.net/publication/391673039_Multi-Tenant_SaaS_Architectures_Design_Principles_and_Security_Considerations)  
+- [Cerbos: What is Multi-Tenancy?](https://www.cerbos.dev/blog/what-is-multi-tenancy)
+
+These sources helped shape the system design, especially around schema-per-tenant isolation and shared logic execution — concepts often used in scalable SaaS data platforms.
+
 
 ## What's Next
 
