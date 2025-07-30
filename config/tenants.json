@@ -1,0 +1,22 @@
+{
+  "tenants": [
+    {
+      "id": "tenant_alpha",
+      "db_path": "data/tenant_alpha.db",
+      "input_csv": "data/tenant_alpha.csv",
+      "vars": {
+        "table": "users",
+        "transformation": "UPPER(name)"
+      }
+    },
+    {
+      "id": "tenant_beta", 
+      "db_path": "data/tenant_beta.db",
+      "input_csv": "data/tenant_beta.csv",
+      "vars": {
+        "table": "customers",
+        "transformation": "LOWER(email)"
+      }
+    }
+  ]
+}

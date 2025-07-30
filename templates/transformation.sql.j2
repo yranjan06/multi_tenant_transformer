@@ -1,0 +1,3 @@
+-- Multi-tenant transformation template
+SELECT id, {{ transformation }} AS transformed_value 
+FROM {{ table }};
