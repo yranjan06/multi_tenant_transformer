@@ -1,3 +1,6 @@
+Note : Schema-per-tenant (via separate SQLite DBs): Since SQLite doesn't support traditional schemas, we isolate each tenant’s data using a separate .db file.
+
+
 # Multi-Tenant Transformation Engine
 
 A lightweight Python-based transformation engine for multi-tenant SaaS applications. Each tenant gets isolated data storage while sharing transformation logic through templated SQL.
