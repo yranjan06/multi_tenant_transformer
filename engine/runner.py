@@ -1,3 +1,6 @@
+# SQLite doesn’t support multiple schemas per DB like PostgreSQL,
+# so we isolate tenants using one database file per tenant.
+
 import sqlite3
 import json
 import os
